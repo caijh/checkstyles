@@ -4,6 +4,7 @@
     "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 <module name="Checker">
     <property name="charset" value="UTF-8" />
+    <property name="severity" value="error"/>
     <property name="fileExtensions" value="java, properties, xml" />
     <!-- 文件源码内不要包含'\t'tab符 -->
     <module name="FileTabCharacter">
