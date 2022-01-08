@@ -53,7 +53,9 @@
             <property name="allowByTailComment" value="true"/>
             <property name="allowNonPrintableEscapes" value="true"/>
         </module>
-        <module name="AvoidStarImport"/>
+        <module name="AvoidStarImport">
+            <property name="excludes" value="java.io,java.util,java.net,java.lang.Math"/>
+        </module>
         <module name="OneTopLevelClass"/>
         <module name="NoLineWrap"/>
         <module name="EmptyBlock">
