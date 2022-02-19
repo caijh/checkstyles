@@ -247,7 +247,7 @@
             <property name="allowSamelineMultipleAnnotations" value="true"/>
         </module>
         <module name="AnnotationUseStyle">
-            <property name="elementStyle" value="expanded"/>
+            <property name="elementStyle" value="ignore"/>
             <property name="trailingArrayComma" value="never"/>
             <property name="closingParens" value="ignore"/>
         </module>
